@@ -1,0 +1,102 @@
+/* Global Ruls */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #c79b53;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition-duration: 0.8s;
+}
+header nav ul li a:hover {
+    color:#00abf0;
+}
+header .one .logo {
+    transition-duration: 1s;
+    cursor: pointer;
+}
+header .one .logo:hover {
+    transform: rotate(80deg);
+}
+.center {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.center .content-product {
+    width: 45%;
+    padding: 20px;
+}
+.center .content-product h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:#eee;
+    font-weight: bold;
+}
+.center .content-product p {
+    font-size: 18px;
+    margin: 20px 0;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+.center .content-product .btn {
+    text-decoration: none;
+    background-color:  #EEE;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    transition-duration: 0.7s;
+    color: black;
+    border-radius: 25px;
+    text-transform: capitalize;
+}
+.center .main-image {
+    width: 30%;
+}
+.center .main-image .home-products {
+    width: 180px;
+}
+.all-products {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.all-products img {
+    width: 5%;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.all-products img:hover {
+    transform: scale(1.2);
+}
+
